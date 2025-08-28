@@ -1,0 +1,15 @@
+import numpy as np
+
+
+#addition of a matrix in python
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+
+# print(A+B)
+
+
+#multiplication of a scalar matrix
+# print(2*A)
+
+#to transpose a matrix
+# print(A.T)
