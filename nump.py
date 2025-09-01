@@ -23,4 +23,7 @@ arr = np.array([1, 2, 3, 4, 5])
 # arr = np.array([[1, 2, 3], [4, 5, 6], [30, 40, 50]])
 # print(arr[2, 1])        #accessing values from a 3d array, just multidimensional in general
 
-print(arr.dtype)            #to get the datatype pf the array
+# print(arr.dtype)            #to get the datatype pf the array
+
+#generate randm array i guess
+# print(np.random.rand(100, 50))
