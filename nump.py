@@ -20,5 +20,7 @@ arr = np.array([1, 2, 3, 4, 5])
 # # print(arr[0])           #getting an index in the array
 # print(arr.sum())        #summing an array
 
-arr = np.array([[1, 2, 3], [4, 5, 6], [30, 40, 50]])
-print(arr[2, 1])        #accessing values from a 3d array, just multidimensional in general
+# arr = np.array([[1, 2, 3], [4, 5, 6], [30, 40, 50]])
+# print(arr[2, 1])        #accessing values from a 3d array, just multidimensional in general
+
+print(arr.dtype)            #to get the datatype pf the array
