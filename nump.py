@@ -35,5 +35,5 @@ sales = np.array([
     [65, 42, 28]
 ])
 
-# print(f"Total per product: {sales.sum(axis = 0)}")
+#print(f"Total per product: {sales.sum(axis = 0)}")
 print(f"Average eggs: {sales[::,2].mean()}")
