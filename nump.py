@@ -3,8 +3,7 @@ arr = np.array([1, 2, 3, 4, 5])
 # print(arr)
 
 #printing the type
-# print(type(arr))
-
+# 
 #now for 2d array
 # arr = np.array(45)
 # print(arr)
@@ -27,3 +26,13 @@ arr = np.array([1, 2, 3, 4, 5])
 
 #generate randm array i guess
 # print(np.random.rand(100, 50))
+
+sales = np.array([
+    [50, 30, 20],       #day 1
+    [60, 35, 22],
+    [55, 40, 25],
+    [70, 45, 30],
+    [65, 42, 28]
+])
+
+print(f"Total per product: {sales.sum(axis = 0)}")
