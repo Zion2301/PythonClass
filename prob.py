@@ -25,7 +25,7 @@ def find_median(numbers):
 
 # print(find_median(purchase))
 
-#orrrrrr
+
 
 print(np.median(purchase))
     
