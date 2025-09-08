@@ -21,6 +21,8 @@ def find_median(numbers):
     
     return median
 
+#random shi
+
 
 # print(find_median(purchase))
 
