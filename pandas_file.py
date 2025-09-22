@@ -19,3 +19,6 @@ examData = {
 
 edf = pd.DataFrame(examData)
 print(edf)
+
+# print(edf.info)
+# print(edf.describe)
