@@ -24,5 +24,5 @@ edf = pd.DataFrame(examData)
 # print(edf.describe)
 
 new_date = pd.read_csv("breastcancer.csv")
-print(new_date.head())
+print(new_date.info())
 # print(new_date.tail())
