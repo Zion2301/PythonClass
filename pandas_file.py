@@ -18,7 +18,11 @@ examData = {
 }
 
 edf = pd.DataFrame(examData)
-print(edf)
+# print(edf)
 
 # print(edf.info)
 # print(edf.describe)
+
+new_date = pd.read_csv("data.csv")
+# print(new_date.head())
+print(new_date.tail())
