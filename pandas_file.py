@@ -30,4 +30,5 @@ new_date = pd.read_csv("data.csv")
 # print(new_date["Embarked"].fillna(new_date["Embarked"]).mode()[0], inplace=True)
 
 
+
 # print(new_date.tail())
