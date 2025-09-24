@@ -23,6 +23,6 @@ edf = pd.DataFrame(examData)
 # print(edf.info)
 # print(edf.describe)
 
-new_date = pd.read_csv("breastcancer.csv")
+new_date = pd.read_csv("data.csv")
 print(new_date.isnull().sum())          #seeing the missing values in a dataset before training the machine
 # print(new_date.tail())
